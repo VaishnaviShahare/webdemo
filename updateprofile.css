@@ -29,7 +29,7 @@ fieldset input{
 }
 fieldset {
     padding-left: 2%;
-    padding-right: 70%;
+    padding-right:0%;
     padding-bottom: 0%;
     padding-top: 0%;
     border-radius: 10px;
