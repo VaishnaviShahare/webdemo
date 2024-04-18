@@ -59,3 +59,13 @@ fieldset {
         text-decoration: dashed;
         color: rgb(180, 116, 239);
     }
+    div .form{
+        width:30%;
+    }
+div.logo{
+      width: 30%;
+}
+div.number{
+    width: 30%;
+
+}
