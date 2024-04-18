@@ -7,6 +7,7 @@ nav a{
 }
 nav  a img{
     text-emphasis: none;
+    border-image-slice:40%;
 }
 h1{
     text-align: center;
