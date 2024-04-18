@@ -44,10 +44,18 @@ fieldset {
     fieldset.address{
         float: right;
     }
-    .btn{
-       padding-left: 5%;
-       padding-right: 5%; 
-       border-style:dotted;
-       border-radius: 20%;
-    
+   
+    button a{
+        color: black;
+        background-color: rgb(180, 116, 239);
+        text-decoration: solid;
+        text-align: center;
+        border: 10px;
+        
+
+    }
+    .field{
+
+        text-decoration: dashed;
+        color: rgb(180, 116, 239);
     }
