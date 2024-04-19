@@ -74,4 +74,10 @@ div.number{
 div.col-md-6{
     width: 50%;
     border-radius: 10px;
+
+}
+div.col-md-8{
+    width: 50%;
+    border-radius: 10px;
+    
 }
