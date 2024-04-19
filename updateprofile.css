@@ -47,10 +47,12 @@ fieldset {
    
     button a{
         color: black;
-        background-color: rgb(180, 116, 239);
+        background-color: rgb(211, 185, 14);
         text-decoration: solid;
         text-align: center;
-        border: 10px;
+        border: 50px;
+        border-radius: 50px;
+        list-style-type: circle;
         
 
     }
