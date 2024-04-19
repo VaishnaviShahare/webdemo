@@ -62,17 +62,18 @@ fieldset {
         color: rgb(180, 116, 239);
     }
     div .form{
-        width:30%%;
+        width:30%;
     }
 div.logo{
-      width: 50%;
+      width: 30%;
+      margin-left: 50%;
 }
 div.number{
     width: 30%;
 
 }
 div.col-md-6{
-    width: 100%;
+    width: 30%;
     border-radius: 10px;
 
 }
