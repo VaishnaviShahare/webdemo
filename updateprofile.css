@@ -71,6 +71,7 @@ div.number{
     width: 30%;
 
 }
-div.row{
+div.col-md-6{
     width: 50%;
+    border-radius: 10px;
 }
