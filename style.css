@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;	
+  }  
+  .name{
+    border-radius: 30px;
+  }
+  
+  .submit-btn{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .btn:last-child {
+    margin-right: 0;
+  }
+  
+    /* Style for the header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+  
+   
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+  
+    /* Style for reset button */
+    .restart-btn {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .restart-btn:hover {
+        background-color: #85121e;
+      }
+
+  .lg{
+    background-color: #5f03ff;
+    border-radius: 30px;
+    width: 45%;
+    color: #fff;
+    font-size: x-small;
+    border-color: #ccc;
+  }  
+
+  .gr{
+    background-color:#808080;
+    border-radius: 30px;
+    width: 45%;
+    color: #fff;
+    font-size: x-small;
+    border-color: #ccc;
+  }
+

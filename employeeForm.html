@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+        <header>
+            <h1>Employee Form</h1> 
+            <h5>Required &nbsp; &nbsp; Optional</h5>
+        </header>
+    
+    <ol>
+        <li>Basic information</li>
+        <hr>
+        <table>
+            <tr>
+                <td><fieldset class="name">
+                    <legend class="lg">Employee Name*</legend>
+                    <input type="text" required placeholder="Name Of Employee" required>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                    <legend class="gr">Mobile No for SMS/Whatsapp</legend>
+                    <input type="number" placeholder="e.g +91xxxxxxxxxx">
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                    <legend class="lg">Employee Role*</legend>
+                    <select name="Role" id="Role">
+                        <option value="Manager">Manager</option>
+                        <option value="HR">HR</option>
+                        <option value="Superviser">Superviser</option>
+                    </select>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <fieldset class="name">
+                    <legend class="gr">Picture-Optional</legend>
+                    <input type="file" >
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                    <legend class="lg">Date of joining*</legend>
+                    <input type="date" required placeholder="" required>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                    <legend class="lg">Monthly Salary*</legend>
+                    <input type="number" required placeholder="Monthly Salary" required>
+                    </fieldset>
+                </td>
+            </tr>
+        </table> <br><br>
+        <li>other information</li>
+        <hr>
+        <table>
+            <tr> <td>
+                    <fieldset class="name">
+                    <legend class="gr">Father/Husband Name</legend>
+                    <input type="text"placeholder="Father/Husband Name">
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Gender</legend>
+                        <select name="Gender" id="Gender">
+                            <option value=""></option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="other">other</option>
+                        </select>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Experience</legend>
+                        <input type="text" placeholder="Experience">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <fieldset class="name">
+                        <legend class="gr">National ID</legend>
+                        <input type="text" placeholder="National ID">
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Religion</legend>
+                        <select name="select" id="select">
+                            <option value=""></option>
+                            <option value="Open">Open</option>
+                            <option value="OBC">OBC</option>
+                            <option value="SC/ST">SC/ST</option>
+                        </select>
+                        </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Email Address</legend>
+                        <input type="text" placeholder="Email Address">
+                    </fieldset>
+                </td>
+            <tr>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Education</legend>
+                        <input type="text" placeholder="Education">
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Blood Group</legend>
+                        <select name="select" id="select">
+                            <option value=""></option>
+                            <option value="A+">A+</option>
+                            <option value="B+">B+</option>
+                            <option value="O+">O+</option>
+                        </select>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Date Of Birth</legend>
+                        <input type="date" placeholder="dd/mm/yy">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset class="name">
+                        <legend class="gr">Home Address</legend>
+                        <input type="text" placeholder="Home Address">
+                    </fieldset>
+                </td>
+             
+            </tr>
+       </table>
+     </ol>
+    <center>
+        <button class="restart-btn" type="submit">restart</button>
+        <button class="submit-btn" type="submit">submit</button>
+    </center>
+</body>
+</html>
